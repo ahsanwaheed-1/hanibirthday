@@ -1,0 +1,80 @@
+/* styles.css (additional styles) */
+
+/* General body styling */
+body {
+    font-family: 'Comic Sans MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, #ffafbd, #ffc3a0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+/* Container for the content */
+.container {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 90%;
+    margin: 20px;
+}
+
+/* Image styles */
+.image-large {
+    width: 500px;  /* Large image */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.image-small {
+    width: 300px;  /* Smaller image */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #ff69b4;
+    font-size: 2.5rem;
+}
+
+p {
+    color: #333;
+    font-size: 1.2rem;
+    margin: 15px 0;
+}
+
+.message {
+    background: #ffe4e1;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.btn-back, #playMusicBtn {
+    background: #ff69b4;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-top: 20px;
+}
+
+.btn-back:hover {
+    background: #ff1493;
+}
+
+@media (max-width: 768px) {
+    .image-large, .image-small {
+        width: 100%;  /* Responsive images for small screens */
+        max-width: 100%;
+    }
+}

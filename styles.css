@@ -1,0 +1,78 @@
+/* styles.css */
+body {
+    font-family: 'Comic Sans MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, #ffafbd, #ffc3a0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.container {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 90%;
+    margin: 20px;
+}
+
+h1 {
+    color: #ff69b4;
+    font-size: 2.5rem;
+}
+
+p {
+    color: #333;
+    font-size: 1.2rem;
+    margin: 15px 0;
+}
+
+img {
+    width: 200px;
+    margin-top: 20px;
+}
+
+.letter {
+    width: 200px;
+    margin-top: 20px;   
+}
+
+.message {
+    background: #ffe4e1;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#btn, .btn-back {
+    background: #ff69b4;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #ff1493;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    img {
+        width: 150px;
+    }
+}
